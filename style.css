@@ -10,7 +10,23 @@ body {
     background-color: #0A0A0A ;
     color: white;
     font-weight: 700;
+
+    display: grid;
+    grid-template-rows: 1fr 4.5fr 2fr;
+    gap: 20px;
+    padding: 1.5rem;
 }
+
+.branding {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    gap: 1rem;
+}
+
+.branding div {
+    font-size: x-large;
+}
+
 
 .header {
     grid-column: 2/3;
@@ -19,4 +35,26 @@ body {
 
 .content {
     background-color: #F1F1F1;
+}
+
+.navmenu1 {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    gap: 1rem;
+}
+
+.navmenu2 {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    gap: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: grid;
 }
