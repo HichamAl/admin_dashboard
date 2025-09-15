@@ -3,6 +3,7 @@ body {
     grid-template-columns: 1fr 4fr;
     margin: 0;
     padding: 0;
+    font-family: "Lato", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .sidebar {
@@ -12,8 +13,8 @@ body {
     font-weight: 700;
 
     display: grid;
-    grid-template-rows: 1fr 4.5fr 2fr;
-    gap: 20px;
+    grid-template-rows: 50px 250px 250px;
+    gap: 1rem;
     padding: 1.5rem;
 }
 
@@ -35,6 +36,13 @@ body {
 
 .content {
     background-color: #F1F1F1;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr 0.75fr;
+}
+
+.content .project {
+
 }
 
 .navmenu1 {
@@ -52,7 +60,12 @@ body {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+}
+
+li, ul div {
+    margin-bottom: 1rem;
+    font-size: large;
 }
 
 .nav {
