@@ -150,11 +150,22 @@ input:focus {
 .content .Project {
     background-color: #FFFFFF;
     text-align: left;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 1rem;
+    box-shadow: 10px 10px 10px lightgrey;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.Project .title {
+.Project .icons {
+    display: flex;
+    justify-content: end;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.Project .title, .announcements .title {
     font-weight: 700;
 }
 
@@ -166,7 +177,11 @@ input:focus {
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
-    
+}
+
+hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .content .projects_container {
@@ -180,6 +195,13 @@ input:focus {
     background-color: #FFFFFF;
     border-radius: 1rem;
     text-align: center;
+    padding: 1rem;
+}
+
+.Trending {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    text-align: left;
 }
 
 .navmenu1 {
